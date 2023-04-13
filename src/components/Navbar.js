@@ -1,14 +1,10 @@
-import React, {useState} from 'react'
+import React from 'react'
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <>
-        <nav className='navbar'>
-            <div className="navbar-container">
-                    
-            </div> 
-        </nav>
-    </>
+    <div className='navbar-container'>
+        <h1>Hi to everbody</h1>
+    </div>
   )
 }
 

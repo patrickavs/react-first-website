@@ -1,11 +1,19 @@
 import './App.css';
+import Navbar from './components/Navbar';
 import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Yo</h1>
-    </div>
+    <h1>
+      <Navbar />
+      <MyButton />
+    </h1>
+  );
+}
+
+function MyButton() {
+  return (
+    <button>I'm a button</button>
   );
 }
 
